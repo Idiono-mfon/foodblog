@@ -71,4 +71,32 @@
         
     }
 
+    function form_error_component($data, $key){
+        $str = "";
+        if(isset($data[$key])){
+            $str.= '<div class="text-danger"> '.$data[$key].' </div>';
+        }
+        return $str;
+
+    }
+
+    function display_multiple_errors($errors){
+        $str = "";
+        if(isset($errors["mode"])){
+            $errors = exclude_and_regenerate($errors, 'mode');
+          $str .= ' <ul class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Ooops! Failure</strong> Please fix the following Errors.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+          </button>';
+          foreach($errors as $error){
+            $str.='<li>'.$error.'</li>';
+          }
+          $str.=" </ul>";
+        }
+        
+        return $str;
+
+    }
+
 ?>
