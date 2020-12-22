@@ -1,0 +1,24 @@
+.food-img{
+    position:relative!important;
+}
+
+span.update-icon{
+    width:50px;
+    position:absolute;
+    height:50px;
+    border-radius:50%;
+    box-shadow: rgba(100, 100, 100, 0.37);
+    background:rgba(12, 56, 82, 0.993);
+    top:-5%;
+    bottom:0;
+    left:85%;
+    right:0;
+    text-align:center;
+    font-size:25px;
+    font-weight:bolder;
+    color:#fff;
+    border:2px solid #fff;
+    margin:5px;
+    cursor:pointer;
+
+}

@@ -1,0 +1,55 @@
+
+$foods = [
+    [
+        "title" => "The Perfect Sandwich, A Real NYC Classic",
+        "img" => "sandwich.jpg",
+        "desc" => "Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum."
+    ],
+
+    [
+        "title" => "Let Me Tell You About This Steak",
+        "img" => "steak.jpg",
+        "desc" => "Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.."
+    ],
+
+    [
+        "title" => "Cherries Interrupted",
+        "img" => "cherries.jpg",
+        "desc" => "Lorem ipsum text praesent tincidunt ipsum lipsum. What else?"
+    ],
+
+    [
+        "title" => "Once Again, Robust Wine and Vegetable Pasta",
+        "img" => "wine.jpg",
+        "desc" => "Lorem ipsum text praesent tincidunt ipsum lipsum."
+    ],
+
+    [
+        "title" => "All I Need Is a Popsicle",
+        "img" => "popsicle.jpg",
+        "desc" => "Lorem ipsum text praesent tincidunt ipsum lipsum."
+    ],
+
+    [
+        "title" => "Salmon For Your Skin",
+        "img" => "salmon.jpg",
+        "desc" => "Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum"
+    ],
+
+    [
+        "title" => "The Perfect Sandwich, A Real Classic",
+        "img" => "sandwich.jpg",
+        "desc" => "Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum."
+    ],
+
+
+    [
+        "title" => "Le French",
+        "img" => "croissant.jpg",
+        "desc" => "Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum."
+    ]
+
+
+
+
+];

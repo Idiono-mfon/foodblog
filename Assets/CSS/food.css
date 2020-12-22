@@ -1,0 +1,242 @@
+.body{
+    margin-top: 120px;
+}
+.sidenav{
+    /* display: none; */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.37);
+    width: 0;
+    position: fixed;
+    z-index: 9990;
+    top: 0;
+    left: 0;
+    line-height: 80px;
+    /* padding-top: 15px; */
+    overflow: hidden;
+    transition: 0.5s;
+    background: #fff;
+    height: 100%;
+}
+.sidenav a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.sidenav p{
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 1px;
+    /* display: block; */
+    transition: 0.3s;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.sidenav a:hover{
+    background: rgba(27, 23, 23, 0.178);
+}
+.sidenav p:hover{
+    background: rgba(27, 23, 23, 0.178);
+    cursor: pointer;
+}
+.nav-item{
+    position: relative;
+    padding-top: 15px;
+   
+}
+.item-1{
+    position: relative;
+    /* margin-top: -15px; */
+    margin-left: 60px;
+    padding: 20px 20px 15px 20px;
+    /* height: 100%; */
+    /* line-height: 50px; */
+    /* color:#fff; */
+}
+/* nav{
+    position: relative;
+} */
+.nav-item i{
+    font-size: 25px;
+    /* line-height: 50px; */
+    /* font-weight: 100; */
+}
+.item-1:hover{
+    background: rgba(27, 23, 23, 0.178);
+    cursor: pointer;
+}
+.item{
+    border-bottom: 1px solid rgba(27, 23, 23, 0.178);
+    margin-bottom: 100px;
+    padding: 50px 0;
+}
+.item ul li a{
+    padding: 8px 20px;
+}
+.item ul li .one{
+    background: #000;
+    color: #fff;
+}
+.item ul li .one:hover{
+    background: rgba(27, 23, 23, 0.376);
+}
+.item ul li a:hover{
+    background: #000;
+    color: #fff;
+}
+div.nav.food{
+    text-align: center;
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.top-nav .nav-item a {
+    font-size:1.3rem;
+    color:#fff;
+    font-weight:400;
+   
+}
+
+.top-nav .nav-item a.welcome-text {
+    text-decoration:none;
+}
+
+
+
+
+
+.gallery .gallery-container .gallery-image img{
+    /* position: absolute; */
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    /* margin-left: -8px;
+    margin-right: 20px; */
+    /* margin-right: 8px;
+    margin-top: 40px; */
+}
+.gallery .gallery-container .gallery-image p{
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+.gallery .gallery-container .gallery-image .else{
+    font-size: 18px;
+}
+.gallery .gallery-container .gallery-image .describe{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+.description i{
+    font-size: 17px;
+}
+.passion p{
+    /* background: red; */
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgba(27, 23, 23, 0.178);
+  /* margin-left: -40px; */
+    /* padding: 0 50px; */
+    width: 100%;
+}
+.footer-paragraph{
+    font-size: 25px;
+    font-weight: 350;
+}
+footer .footer-item .footer-images{   
+    padding-bottom: 20px;
+    margin-top: -8px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+footer .footer-item .footer-images:hover{
+    background: rgba(27, 23, 23, 0.178);
+    cursor: pointer;
+}
+footer .footer-item .footer-images img{
+    width: 55px;
+    height: 55px;
+}
+footer .footer-item .footer-images div{
+    margin-left: 60px;
+    margin-top: -50px;
+}
+footer .footer-item .footer-images-2{
+    /* padding-top: 20px; */
+    /* margin-top: -8px; */
+    border-top: 1px solid rgba(27, 23, 23, 0.178);
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+footer .footer-item .footer-images-2:hover{
+    background: rgba(27, 23, 23, 0.178);
+    cursor: pointer;
+    border-top: 1px solid transparent;
+}
+footer .footer-item .footer-images-2 img{
+    width: 55px;
+    height: 55px;
+}
+footer .footer-item .footer-images-2 div{
+    margin-left: 60px;
+    margin-top: -50px;
+}
+footer .footer-item-2 .my-tags{
+    line-height: 35px;
+}
+footer .footer-item-2 .my-tags .hover{
+    background: #000;
+    padding: 2px 5px;
+}
+footer .footer-item-2 .my-tags .active{
+    font-size: 13px;
+    padding: 1px 4px;
+}
+
+@media screen and (min-width: 320px){
+    .sidenav{
+        /* width: 42%; */
+        line-height: 70px;
+        padding-top: 10px;
+    }
+    .sidenav a{
+        font-size: 20px;
+        padding: none;
+    }
+    .sidenav p{
+        font-size: 20px;
+        padding: none;
+    }
+    .item-1{
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 700px){
+    .sidenav{
+        /* width: 42%; */
+        padding-top: 0;
+        line-height: 80px;
+    }
+    .sidenav a{
+        font-size: 30px;
+    }
+    .sidenav p{
+        font-size: 30px;
+    }
+    .item-1{
+        margin-left: 60px;
+    }
+}
